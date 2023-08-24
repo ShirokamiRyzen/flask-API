@@ -7,19 +7,17 @@ AUTO_RELOAD = True
 
 # SOCIAL MEDIA LINK :)
 SOCIAL_MEDIA = {
-  "telegram": "https://s.id/1LRRU",  # False or url to your telegram
-  "facebook": "https://s.id/1LRqw",  # False or url to your facebook
-  "instagram": "https://s.id/1LRS0",  # False or url to your instagram
-  "github": "https://s.id/1LRSf",  # False or url to your github
+  "telegram": "https://t.me/ShirokamiRyzen",  # False or url to your telegram
+  "facebook": "https://www.facebook.com/Nao.Tomori.UwU",  # False or url to your facebook
+  "instagram": "https://www.instagram.com/ryzen_vermillion",  # False or url to your instagram
+  "github": "https://github.com/ShirokamiRyzen",  # False or url to your github
 }
 
 APP_TITLE = "API"
 APP_DESCRIPTION = "API ini dibuat untuk mempermudah dalam mengambil data dari website."
 
-AUTHOR_NAME = "Xnuvers007"
-AUTHOR_NAME2 = "IhsanDevs"
-AUTHOR_LINK = "https://github.com/Xnuvers007"
-AUTHOR_LINK2 = "https://github.com/IhsanDevs"
+AUTHOR_NAME = "Shirokami Ryzen"
+AUTHOR_LINK = "https://github.com/ShirokamiRyzen"
 
 CHANGELOG = [
   "Cek Openai APIKEY", "Cek Jadwal Pertandingan Bola [15/08/2023]",
@@ -35,67 +33,12 @@ CHANGELOG = [
 
 GALERIES = [
   {
-    "image": "https://i.ibb.co/gMptW7w/1.webp",
+    "image": "https://i.ibb.co/7VWcdP9/Tidak-berjudul.png",
     "link": {
-      "href": "https://gtmetrix.com/reports/tr.deployers.repl.co/3PiRf2GP/",
-      "text": "Lihat Hasil GTMetrix DESKTOP",
+      "href": "https://uptime.ryzendesu.com/",
+      "text": "Ryzendesu web Monitor",
     },
     "description": False,
-  },
-  {
-    "image": "https://i.ibb.co/ydbyBhV/2.webp",
-    "link": {
-      "href":
-      "https://pagespeed.web.dev/analysis/https-tr-deployers-repl-co/ekypysxvaa?form_factor=mobile",
-      "text": "Lihat Hasil PageSpeed Insights MOBILE",
-    },
-    "description": False,
-  },
-  {
-    "image": "https://i.ibb.co/8d26vYv/4.webp",
-    "link": {
-      "href":
-      "https://pagespeed.web.dev/analysis/https-tr-deployers-repl-co/ekypysxvaa?form_factor=desktop",
-      "text": "Lihat Hasil PageSpeed Insights DESKTOP",
-    },
-    "description": False,
-  },
-  {
-    "image": "https://i.ibb.co/bv4RtJZ/3.webp",
-    "link": {
-      "href": "https://www.debugbear.com/test/website-speed/aVgrP5ip/overview",
-      "text": "Lihat Hasil DebugBear MOBILE",
-    },
-    "description": False,
-  },
-  {
-    "image": "https://i.ibb.co/7jT5r76/5.webp",
-    "link": {
-      "href": "https://www.debugbear.com/test/website-speed/oPoks49H/overview",
-      "text": "Lihat Hasil DebugBear DESKTOP",
-    },
-    "description": False,
-  },
-  {
-    "image":
-    "https://i.ibb.co/Jt96t7N/7.webp",
-    "link": {
-      "href":
-      "https://jupyter.xnuvers007.repl.co/notebooks/tr.deployers.repl.co.ipynb",
-      "text": "Lihat hasil Jupyter (password = xnuvers007), tekan see more",
-    },
-    "description":
-    markdown.markdown("""
-        import requests
-
-        url = "https://tr.deployers.repl.co"
-
-        while True:
-            response = requests.get(url,headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.162 Mobile Safari/537.36"})
-            response2 = requests.get(url,headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"})
-
-            print("Android: ",response.elapsed.total_seconds())
-            print("Desktop: ",response2.elapsed.total_seconds())"""),
   },
 ]
 
